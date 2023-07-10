@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "pnpm --filter=@elog/* run build",
+    "watch":"pnpm --filter=@elog/* run watch",
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
     "changeset": "changeset",

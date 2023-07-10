@@ -20,7 +20,8 @@
     "url": "https://github.com/LetTTGACO/elog/issues"
   },
   "scripts": {
-    "build": "rimraf dist && tsup --legacy-output"
+    "build": "rimraf dist && tsup --legacy-output",
+    "watch": "tsup src/index.ts --watch"
   },
   "dependencies": {
     "@elog/deploy": "workspace:*",
